@@ -1,0 +1,119 @@
+
+.container-actualizarStock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto; 
+  }
+  
+  
+  .container-subb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  
+  .boton-inicio {
+    background-color: #3b82f6; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-inicio:hover {
+    background-color: #2563eb; 
+  }
+  
+ 
+  #reader {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #1f1f1f; 
+  }
+  
+ 
+  .resultado-escaneo {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  
+.error-message {
+    color: #f87171; 
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .error-message p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .error-message .boton-inicio {
+    background-color: #e11d48; 
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .error-message .boton-inicio:hover {
+    background-color: #9b1c31; 
+  }
+  
+  
+.carousel-container {
+  width: 100%;           
+  max-width: 400px;      
+  margin: 0 auto;        
+  padding: 20px 0;       
+  box-sizing: border-box;
+  overflow: hidden;      
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;          
+}
+
+.swiper-slide {
+  display: flex;         
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+ 
+  @media (max-width: 480px) {
+    .container-actualizarStock {
+      padding: 15px;
+      max-width: 100%; 
+    }
+  
+    .boton-inicio {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  
+    #reader {
+      width: 100%;
+      height: 250px; 
+    }
+  }
+  

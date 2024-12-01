@@ -1,0 +1,57 @@
+:root {
+  --color-background: #121212;
+  --color-card-background: #1f1f2e;
+  --color-text: #eaeaea;
+  --color-border: #3b3b3b;
+  --color-input-background: #2e2e38;
+  --color-input-border: #555;
+  --color-input-placeholder: #888;
+  --color-shadow: rgba(0, 0, 0, 0.6);
+}
+
+.tarjeta-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow: auto;
+  justify-content: center;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: var(--color-card-background);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--color-shadow);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.tarjeta {
+  background-color: var(--color-card-background);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+  color: var(--color-text);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px var(--color-shadow);
+}
+
+.button {
+  background-color: #6200ea;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3700b3;
+}

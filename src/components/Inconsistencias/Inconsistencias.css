@@ -1,0 +1,78 @@
+
+.label {
+    font-size: 1rem;
+    color: #bbbbbb;
+    margin-right: 10px;
+}
+
+
+.date-input {
+    background-color: #2b2b3d;
+    color: #ffffff;
+    border: 1px solid #444;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.date-input:focus {
+    border-color: #6a5acd;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.date-filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.date-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.TableContainer {
+    margin-top: 20px;
+}
+
+
+

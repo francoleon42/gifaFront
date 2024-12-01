@@ -1,0 +1,56 @@
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
+
+
+
+
+= Guía de Uso Local - Frontend GIFA
+
+== 1. Clona el repositorio (si aún no lo has hecho)
+Si el proyecto está en un repositorio remoto (como GitHub), clónalo en tu máquina usando el siguiente comando en tu terminal:
+
+[source,bash]
+----
+git clone <URL_DEL_REPOSITORIO>
+----
+
+Luego, navega al directorio del proyecto:
+
+[source,bash]
+----
+cd nombre-del-proyecto
+----
+
+== 2. Instala las dependencias
+Una vez dentro de la carpeta del proyecto, ejecuta el siguiente comando para instalar las dependencias necesarias:
+
+[source,bash]
+----
+npm install
+----
+
+Este comando descarga e instala todas las dependencias que se mencionan en el archivo `package.json`.
+
+== 3. Inicia el servidor de desarrollo
+Después de instalar las dependencias, puedes iniciar el servidor de desarrollo con el siguiente comando:
+
+[source,bash]
+----
+npm run dev
+----
+
+Este comando ejecutará el servidor de Vite, permitiéndote ver el proyecto en un navegador. Vite debería mostrar una URL similar a `http://localhost:5173`, donde puedes ver tu aplicación de React en funcionamiento.
+
+== 4. Abre el proyecto en el navegador
+Abre la URL que aparece en la terminal (`http://localhost:5173` por defecto) en tu navegador para ver tu aplicación en vivo.
+

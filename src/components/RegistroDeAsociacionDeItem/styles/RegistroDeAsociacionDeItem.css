@@ -1,0 +1,99 @@
+
+.registro-asociacion-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #fff; 
+}
+
+
+.registro-asociacion-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f1f1f1; 
+}
+
+
+.registro-asociacion-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ccc; 
+    background-color: #1e1e1e;
+}
+
+.registro-asociacion-select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.registro-asociacion-form-group {
+    margin-bottom: 20px;
+}
+
+
+.registro-asociacion-label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #ccc; 
+}
+
+
+.registro-asociacion-input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #555; 
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: #ccc; 
+}
+
+.registro-asociacion-input-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.registro-asociacion-submit-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.registro-asociacion-submit-button:hover {
+    background-color: #0056b3; 
+}
+
+
+.registro-asociacion-cancel-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.registro-asociacion-cancel-button:hover {
+    background-color: #c82333; 
+}
